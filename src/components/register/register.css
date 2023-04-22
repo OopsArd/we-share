@@ -1,0 +1,21 @@
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 428px;
+    height: 398px;
+
+    position: absolute;
+    left: 36px;
+    top: 24px;
+}
+
+.left{
+    margin: 10px 0;
+}
+
+.input-email, .input-confirm{
+    margin: 10px 0;
+}

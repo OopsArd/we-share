@@ -1,4 +1,11 @@
-.login{
+:root{
+    --color-background: #ffffff;
+    --color-title: #9391fd;
+    --color-border: #bebebe;
+    --color-btn: #9c27b0;
+}
+
+.form{
     width: 500px;
     height: 446px;
 
@@ -9,6 +16,24 @@
     position: absolute;
     left: calc(50% - 500px/2);
     top: calc(50% - 446px/2);
+}
+
+.btn-exit{
+    border: none;
+    background-color: #ffffff;
+    font-size: 20px;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    cursor: pointer;
+}
+
+.btn-exit:hover{
+    font-size: 24px;
+    color: red;
+    opacity: .9;
 }
 
 .login-form{
@@ -37,7 +62,7 @@
     color: #9391FD;
 }
 
-.input-username > input, .input-password > input{
+input{
     width: 428px;
     height: 61px;
 
